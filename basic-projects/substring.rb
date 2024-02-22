@@ -5,6 +5,7 @@ def substrings(word, substrings)
   end
 
   p op_hash
+  op_hash
 end
 
 substrings('hello', %w[hello bye hell hell bye])
