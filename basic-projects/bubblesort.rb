@@ -29,5 +29,5 @@ def sorted?(arr)
   true
 end
 
-raise "Not Sorted" unless !bubble_sort(arr))
+fail if !bubble_sort(arr))
 p sorted?(bubble_sort(arr2))
