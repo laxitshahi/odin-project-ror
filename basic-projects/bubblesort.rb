@@ -26,8 +26,9 @@ def sorted?(arr)
   arr[1..].each_with_index do |el, i|
     return false if el < arr[i]
   end
+  p 'Array is sorted!'
   true
 end
 
-fail if !bubble_sort(arr))
-p sorted?(bubble_sort(arr2))
+raise unless sorted?(bubble_sort(arr))
+raise unless sorted?(bubble_sort(arr2))
